@@ -26,7 +26,6 @@ from scipy import *
 # in terms of J/gK
 
 
-
 #Temp and specific vol at atmospheric pressure
 
 T_0 = 298.0 #K     #Temp of isotherm
@@ -83,10 +82,6 @@ def theta(v):
 #Volume derivative of Einstein temperature
 def dtheta(v):
     return -1*102.2*V_0/(v*v)
-
-
-
-
 
 #Build some arrays
 P_H=zeros(N,typecode='f')
